@@ -1,0 +1,77 @@
+        * {}
+
+        form {
+            width: 400px;
+            margin: auto;
+            text-align: center
+        }
+
+        button {
+            position: relative;
+            border-radius: 50px;
+            padding: 2rem 4rem;
+            color: #fff;
+            font-weight: 500;
+            font-size: 18pt;
+            border: none;
+            /* IE6-9 fallback on horizontal gradient */
+            z-index: 2;
+            margin: 3rem 3rem;
+        }
+
+        button:hover {
+            cursor: pointer
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        button:before {
+            position: absolute;
+            content: "";
+            z-index: -1;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            button: 0px;
+            border-radius: 32px;
+            margin-top: 3rem;
+            padding: 2rem 4rem;
+            border: none;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4cf1f7', endColorstr='#0050f2', GradientType=1);
+            filter: blur(25px);
+            -webkit-filter: blur(25px);
+        }
+
+
+        .ctabtn {
+            background-image: linear-gradient(to right bottom, #c8539a, #d95190, #e75184, #f35377, #fb5968);
+        }
+
+        .ctabtn:before {
+
+            background-image: linear-gradient(to right bottom, #c8539a, #d95190, #e75184, #f35377, #fb5968);
+        }
+
+
+        .ctabtn2 {
+
+            background-image: linear-gradient(to left top, #5381c8, #4a97d9, #45ade7, #4ac3f2, #59d8fb);
+        }
+
+        .ctabtn2:before {
+            background-image: linear-gradient(to left top, #5381c8, #4a97d9, #45ade7, #4ac3f2, #59d8fb);
+        }
+
+        .ctabtn3 {
+            background-image: linear-gradient(to right bottom, #2929f9, #281ed7, #2514b6, #1f0b96, #180378);
+        }
+
+        .ctabtn3:before {
+            background-image: linear-gradient(to right bottom, #2929f9, #281ed7, #2514b6, #1f0b96, #180378);
+        }
+
+
+        /*
+*/
